@@ -1,0 +1,29 @@
+{
+	"Name":"Device_Name",
+	"Description":"Hello there!",
+	"Detail":{
+		"Type":"Acuator",
+		"UUID":"550e8400-e29b-41d4-a716-446655440000",
+		"Permission":"777",
+		"Protocol":"MQTT",
+		"Channels":[{"Topic":"temperature","Type":"Integer","Permission":"777","Mode":"r","QOS":"2","Description":"This is temperature."},
+		{"Topic":"control_light","Type":"Boolean","Permission":"777","Mode":"rw","QOS":"2","Description":"This is light control."}
+		]
+	}
+}
+
+{
+	"Name":"Device_Name",
+	"Description":"Hello there!",
+	"Detail":{
+		"Type":"Acuator",
+		"UUID":"550e8400-e29b-41d4-a716-446655440000",
+		"Permission":"777",
+		"Protocol":"COAP",
+		"Channels":[{"URL":"coap://140.118.126.240/temperature","Topic":"temperature","Type":"Integer","Permission":"777","Mode":"r","QOS":"1",
+		"Description":"This is temperature."},
+		{"URL":"coap://140.118.126.240/control_light","Topic":"control_light","Type":"Boolean","Permission":"777","Mode":"ow","QOS":"1",
+		"Description":"This is light control."}
+		]
+	}
+}
