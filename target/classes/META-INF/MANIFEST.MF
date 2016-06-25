@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1462356647415
+Bnd-LastModified: 1466803723620
 Build-Jdk: 1.8.0_77
 Built-By: jojllman
 Bundle-ClassPath: .,org.eclipse.paho.client.mqttv3-1.0.2.jar,json-201602
@@ -11,9 +11,8 @@ Bundle-ClassPath: .,org.eclipse.paho.client.mqttv3-1.0.2.jar,json-201602
  api-1.2.jar,commons-codec-1.10.jar,javaee-api-7.0.jar,javax.mail-1.5.0.
  jar,activation-1.1.jar,javax.json-1.0.4.jar
 Bundle-ManifestVersion: 2
-Bundle-Name: iot-gateway
-Bundle-SymbolicName: tw.edu.ntust.connectivitylab.jojllman.kura.iot-gate
- way
+Bundle-Name: gativity
+Bundle-SymbolicName: tw.edu.ntust.connectivitylab.jojllman.kura.gativity
 Bundle-Version: 1.0.0
 Created-By: Apache Maven Bundle Plugin
 Embed-Dependency: *
@@ -41,18 +40,16 @@ Embedded-Artifacts: org.eclipse.paho.client.mqttv3-1.0.2.jar;g="org.ecli
  x.activation";a="activation";v="1.1",javax.json-1.0.4.jar;g="org.glassf
  ish";a="javax.json";v="1.0.4"
 Export-EJB: ALL
-Export-Package: tw.edu.ntust.connectivitylab.jojllman.kura.iotgateway.ac
- cess;version="1.0.0";uses:="javax.security.auth.login,tw.edu.ntust.conn
- ectivitylab.jojllman.kura.iotgateway.device",tw.edu.ntust.connectivityl
- ab.jojllman.kura.iotgateway.device;version="1.0.0";uses:="tw.edu.ntust.
- connectivitylab.jojllman.kura.iotgateway.access",tw.edu.ntust.connectiv
- itylab.jojllman.kura.iotgateway.device.discovery;version="1.0.0";uses:=
- "tw.edu.ntust.connectivitylab.jojllman.kura.iotgateway.device",tw.edu.n
- tust.connectivitylab.jojllman.kura.iotgateway.event;version="1.0.0";use
- s:="tw.edu.ntust.connectivitylab.jojllman.kura.iotgateway.device",tw.ed
- u.ntust.connectivitylab.jojllman.kura.iotgateway;version="1.0.0";uses:=
- "org.osgi.service.component",tw.edu.ntust.connectivitylab.jojllman.kura
- .iotgateway.REST;version="1.0.0";uses:="javax.servlet"
+Export-Package: tw.edu.ntust.connectivitylab.jojllman.kura.gativity.acce
+ ss;uses:="javax.security.auth.login,tw.edu.ntust.connectivitylab.jojllm
+ an.kura.gativity.device";version="1.0.0",tw.edu.ntust.connectivitylab.j
+ ojllman.kura.gativity.device;uses:="tw.edu.ntust.connectivitylab.jojllm
+ an.kura.gativity.access";version="1.0.0",tw.edu.ntust.connectivitylab.j
+ ojllman.kura.gativity.device.discovery;uses:="tw.edu.ntust.connectivity
+ lab.jojllman.kura.gativity.device";version="1.0.0",tw.edu.ntust.connect
+ ivitylab.jojllman.kura.gativity;uses:="org.osgi.service.component";vers
+ ion="1.0.0",tw.edu.ntust.connectivitylab.jojllman.kura.gativity.REST;us
+ es:="javax.servlet";version="1.0.0"
 Import-Package: javax.net,javax.net.ssl,javax.security.auth,javax.securi
  ty.auth.callback,javax.security.auth.login,javax.security.auth.x500,jav
  ax.security.cert,javax.security.sasl,javax.crypto,javax.crypto.spec,jav

@@ -2,7 +2,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>tw.edu.ntust.connectivitylab.jojllman.kura</groupId>
-    <artifactId>iot-gateway</artifactId>
+    <artifactId>gativity</artifactId>
     <version>1.0.0</version>
     <packaging>bundle</packaging>
     <repositories>
@@ -24,7 +24,7 @@
                         <Bundle-Name>${project.name}</Bundle-Name>
                         <Bundle-Version>${project.version}</Bundle-Version>
                         <Export-EJB>ALL</Export-EJB>
-                        <Private-Package>tw.edu.ntust.connectivitylab.jojllman.kura.iotgateway.*</Private-Package>+
+                        <Private-Package>tw.edu.ntust.connectivitylab.jojllman.kura.gativity.*</Private-Package>+
                         <Import-Package>
                             javax.net,
                             javax.net.ssl,

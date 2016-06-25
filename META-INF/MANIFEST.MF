@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: IoT-Gateway
-Bundle-SymbolicName: tw.edu.ntust.connectivitylab.jojllman.kura.iotgateway
+Bundle-SymbolicName: tw.edu.ntust.connectivitylab.jojllman.kura.gativity
 Bundle-Version: 1.0.0.qualifier
 Bundle-Vendor: jojllman
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
